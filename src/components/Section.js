@@ -17,7 +17,7 @@ const Section = ({title,
      allAvelibleCars}) => {
         
     const nonReduxCarAdded = () =>{
-        setAllAvelibleCars([...allAvelibleCars,  ["Model V"]])
+        setAllAvelibleCars([...allAvelibleCars,  ["Model V"]])// hard codded POC
     }
 
     return (
